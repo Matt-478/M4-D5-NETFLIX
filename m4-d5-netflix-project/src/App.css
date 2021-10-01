@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* NETFLIX CODE */
+
+html,body{
+  background: #141414;
+  color: #fff;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.2;
+  user-select: none;
+  cursor: default;
+}
+.bg-nav {
+  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(5, 5, 5); */
+}
+.drop-nav{
+  background-color: rgba(0,0,0,.9);
+  color: #fff;
+  font-size: 13px;
+  line-height: 21px;
+  border: solid 1px rgba(255,255,255,.15);
+  cursor: default;
+}
+.account-nav{
+  background-color: rgba(0,0,0,.9);
+  font-size: 13px;
+  line-height: 21px;
+  border: solid 1px rgba(255,255,255,.15);
+  cursor: default;
+}
+.nav-bar ul li a{
+  font-size: 1.2rem;
+  font-family: Arial,sans-serif;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+a{
+  color: #fff;
+}
+
+.big-left {
+  display: flex;
+}
+
+.account-nav .dropdown-item{
+  background-color: transparent;
+  color: #fff;
+}
+.account-nav .dropdown-divider{
+  border: solid 1px rgba(255,255,255,.15);
+}
+.account-nav .dropdown-item a:hover{
+  background-color: transparent;
+  color: #fff;
+  /* border-bottom: 1px solid white; */
+}
+
+
+.button:hover {
+transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-webkit-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+/* background-color: white; */
+color: white;
+  cursor: pointer;
+}
+
+
+.mglass {
+display: inline-block;
+pointer-events: none;
+}
+
+
+.search:focus + .searchbutton {
+transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-webkit-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+/* background-color: white; */
+  background-color: transparent;
+color: white;
+}
+
+.search {
+position: absolute;
+left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+  background-color: transparent;
+  color: white;
+outline: none;
+border: white;
+padding: 0;
+width: 0;
+height: 100%;
+z-index: 10;
+transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-webkit-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+width: 363px; /* Bar width+1px */
+padding: 0 16px 0 0;
+}
+
+.expandright {
+left: auto;
+right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+padding: 0 0 0 16px;
+}
+
+.btn-secondary:hover{
+  background-color: transparent;
+  border:2px solid white;
+}
+/* Mian body */
+div button.btn-secondary{
+  color: white;
+  background-color:rgb(20, 20, 20);
+}
+
+div.dropdown-menu button:hover{
+  background-color:rgb(20, 20, 20);
+  color: white;
+}
+
+div.dropdown-menu{
+  color: white;
+  cursor: pointer;
+  border: solid 1px rgba(255,255,255,.15);
+}
+div button.dropdown-item span:hover{
+  border-bottom: 1px solid white;
+}
+.card{
+  border:none;
+}
+.card:hover{
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+
+#dropdown-button-dark-example1 {
+  margin-right: 80px;
+}
